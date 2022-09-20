@@ -17,7 +17,7 @@
                 "DivisionLink": "https:///japanese.pu.edu.tw/?Lang=zh-tw"
             }
         ],
-        "Image": "/AdministrationAndAcademic/img/st_peter_hall.jpg"
+        "Image": "/var/file/116/1116/img/952/st_peter_hall.jpg"
     },
     {
         "ID": 2,
@@ -81,7 +81,7 @@
                 "DivisionLink": "https://iplaw.pu.edu.tw/?Lang=zh-tw"
             }
         ],
-        "Image": "/AdministrationAndAcademic/img/anthony_kuo_hall.jpg"
+        "Image": "/var/file/116/1116/img/952/anthony_kuo_hall.jpg"
     },
     {
         "ID": 3,
@@ -109,7 +109,7 @@
                 "DivisionLink": "https://ds.pu.edu.tw/?Lang=zh-tw"
             }
         ],
-        "Image": "/AdministrationAndAcademic/img/jing_an_hall.jpg"
+        "Image": "/var/file/116/1116/img/952/jing_an_hall.jpg"
     },
     {
         "ID": 4,
@@ -149,7 +149,7 @@
                 "DivisionLink": "https://aacsb.pu.edu.tw/?Lang=zh-tw"
             }
         ],
-        "Image": "/AdministrationAndAcademic/img/si_yuan_hall.jpg"
+        "Image": "/var/file/116/1116/img/952/si_yuan_hall.jpg"
     },
     {
         "ID": 5,
@@ -177,7 +177,7 @@
                 "DivisionLink": "https://ipcs.pu.edu.tw/?Lang=zh-tw"
             }
         ],
-        "Image": "/AdministrationAndAcademic/img/providence_hall.jpg"
+        "Image": "/var/file/116/1116/img/952/providence_hall.jpg"
     },
     {
         "ID": 6,
@@ -201,20 +201,20 @@
                 "DivisionLink": "https://gflep.pu.edu.tw/?Lang=zh-tw"
             }
         ],
-        "Image": "/AdministrationAndAcademic/img/main_gate.jpg"
+        "Image": "/var/file/116/1116/img/952/main_gate.jpg"
     },
     {
         "ID": 7,
         "OfficeName": "General Education Center",
         "OfficeLink": "https://gec.lib.pu.edu.tw/?Lang=zh-tw",
         "Division": [],
-        "Image": "/AdministrationAndAcademic/img/anthony_kuo_hall.jpg"
+        "Image": "/var/file/116/1116/img/952/anthony_kuo_hall.jpg"
     },
     {
         "ID": 8,
         "OfficeName": "Literacy Center for Creative Writing and Course Development",
         "OfficeLink": "https://raw.pu.edu.tw/?Lang=zh-tw",
         "Division": [],
-        "Image": "/AdministrationAndAcademic/img/luking_library.jpg"
+        "Image": "/var/file/116/1116/img/952/luking_library.jpg"
     }
 ]
