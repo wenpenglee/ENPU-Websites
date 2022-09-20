@@ -166,7 +166,7 @@
             },
             {
                 "DivisionName": "Department of Computer Science and Communication Engineering",
-                "DivisionLink": "https://csce.pu.edu.tw/?Lang=zh-tw"
+                "DivisionLink": "http://www.csce.pu.edu.tw/?Lang=zh-tw"
             },
             {
                 "DivisionName": "International Program in Computer Science",
@@ -206,7 +206,7 @@
     {
         "ID": 7,
         "OfficeName": "General Education Center",
-        "OfficeLink": "https://gec.lib.pu.edu.tw/?Lang=zh-tw",
+        "OfficeLink": "https://gec.pu.edu.tw/?Lang=zh-tw",
         "Division": [],
         "Image": "/var/file/116/1116/img/952/anthony_kuo_hall.jpg"
     },
