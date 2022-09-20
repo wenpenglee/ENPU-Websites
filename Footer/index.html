@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style type="text/css">
+        .homeLink {
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+
+        .homeLink a {
+            margin-left: 12px;
+            margin-right: 12px;
+        }
+
+        .homeLink a img {
+            width: 45px;
+
+        }
+
+        .footer {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            padding-bottom: 10px;
+        }
+    </style>
+    <!--第一行-->
+    <div class="bt_first">
+        <div class="bt_first_main container">
+            <script>
+                $(document).ready(function () {
+                    $.hajaxOpenUrl("/app/index.php?Action=mobileloadmod&Type=mobile_ln_mstr&Nbr=6", '#bt_link');
+                });
+            </script>
+        </div>
+    </div>
+    <!--第二行-->
+
+    <div class="bt_second">
+        <div class="bt_second_main container footer row" style="flex-wrap: wrap;">
+            <div class="col-md-8  col-xs-12" style="font-family:'Times New Roman',serif;font-size:1.6rem">200, Sec. 7,
+                Taiwan Boulevard, Shalu Dist., Taichung City 43301 Taiwan<br />
+                04-2632-8001 ext. 11561-11564 pu11600@pu.edu.tw Fax:+886-4-2652-6602</div>
+
+            <div class="homeLink col-md-4 col-xs-12">
+                <a href="https://www.facebook.com/PU.ProvidenceUniversity">
+                    <img alt="facebook" height="" src="https://c054.pu.edu.tw/var/file/116/1116/img/355/fb_icon.png"
+                        width="" /></a>
+                <span style="font-weight:900;margin-right:12px;font-size:26px">|</span>
+                <a target="_blank" href="https://www.ieet.org.tw/Pages/index.aspx">
+                    <img alt="ieet" src="https://c054.pu.edu.tw/var/file/116/1116/img/355/IEET_Accredited-Logo_EAC.png"
+                        style="width:90px" /></a>
+                <a target="_blank" href="https://www.isepstudyabroad.org/">
+                    <img alt="isep" src="https://c054.pu.edu.tw/var/file/116/1116/img/355/ISEP.png"
+                        style="width:98px" /></a>
+                <a target="_blank" href="https://www.isepstudyabroad.org/">
+                    <img alt="isep" src="https://oia.pu.edu.tw/var/file/48/1048/img/4/Erasmus--300x253.jpg"
+                        style="width:98px" /></a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

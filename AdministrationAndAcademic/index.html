@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <style>
+        .administration_title {
+            height: 20vh;
+            width: 100%;
+            display: table;
+            text-align: center;
+            background-color: #68bdbd;
+            color: #fff;
+        }
+
+        .administration_title_text {
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+        .administration_title_text_h1 {
+            font-size: 3rem;
+            font-weight: 100;
+            font-style: italic;
+        }
+
+        .administration_container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .administration_card {
+            border: 1px solid #68bdbd;
+            width: 23%;
+            /* height: 200px; */
+            margin: 20px 0;
+        }
+
+        .administration_card_info {
+            /* width: 100%; */
+            padding: 20px;
+            /* display: flex; */
+        }
+
+        .administration_card_img_container {}
+
+        .administration_card_img {
+            background-size: contain;
+            width: 100%;
+        }
+
+        .administration_card_info_title {
+            font-size: 1.5rem;
+            font-weight: bolder;
+        }
+
+        @media screen and (max-width: 1000px) {
+            .administration_card {
+                width: 31%;
+
+            }
+        }
+
+        @media screen and (max-width: 767px) {
+            .administration_card {
+                width: 49%;
+
+            }
+        }
+
+        @media screen and (max-width: 425px) {
+            .administration_card {
+                width: 100%;
+            }
+        }
+    </style>
+
+    <div>
+        <div class="administration_title">
+            <div class="administration_title_text">
+                <h1 class=".administration_title_text_h1">Administration</h1>
+            </div>
+        </div>
+
+        <div class="administration_container">
+
+            <!-- <div class="administration_card">
+                <div class="administration_card_info">
+                    <p class="administration_card_info_title">Board of Trustees</p>
+                </div>
+            </div> -->
+
+            <div class="administration_card">
+                <div class="administration_card_img">
+                    <img class="administration_card_img" src="/img/providence_hall.jpg" alt="">
+                </div>
+                <div class="administration_card_info">
+                    <a href="https://president.pu.edu.tw/" target="_blank" rel="noopener noreferrer">
+                        <p class="administration_card_info_title">Office of President</p>
+                    </a>
+                    <a href="https://vp.pu.edu.tw/" target="_blank" rel="noopener noreferrer">
+                        <p class="administration_card_info_content">Office of Vice President</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="administration_card">
+                <div class="administration_card_info">
+                    <p class="administration_card_info_title">Office of Academic Affairs</p>
+                    <p class="administration_card_info_content">Division of Registration and Curriculum</p>
+                    <p class="administration_card_info_content">Division of Admissions</p>
+                    <p class="administration_card_info_content">Teaching Development Center</p>
+                    <p class="administration_card_info_content">Service Learning Development Center</p>
+                </div>
+
+            </div>
+
+            <div class="administration_card">
+                <div class="administration_card_info">
+                    <p class="administration_card_info_title">Office of Academic Affairs</p>
+                    <p class="administration_card_info_content">Division of Registration and Curriculum</p>
+                    <p class="administration_card_info_content">Division of Admissions</p>
+                    <p class="administration_card_info_content">Teaching Development Center</p>
+                    <p class="administration_card_info_content">Service Learning Development Center</p>
+                </div>
+
+            </div>
+            <div class="administration_card">
+                <div class="administration_card_info">
+                    <p class="administration_card_info_title">Office of Academic Affairs</p>
+                    <p class="administration_card_info_content">Division of Registration and Curriculum</p>
+                    <p class="administration_card_info_content">Division of Admissions</p>
+                    <p class="administration_card_info_content">Teaching Development Center</p>
+                    <p class="administration_card_info_content">Service Learning Development Center</p>
+                </div>
+
+            </div>
+
+        </div>
+</body>
+
+</html>

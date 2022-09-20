@@ -1,0 +1,239 @@
+[
+    {
+        "ID": 1,
+        "OfficeName": "Office of President",
+        "OfficeLink": "https://president.pu.edu.tw/",
+        "Division": [
+            {
+                "DivisionName": "Office of Vice President",
+                "DivisionLink": "https://vp.pu.edu.tw/"
+            }
+        ],
+        "Image": "img/providence_hall.jpg"
+    },
+    {
+        "ID": 2,
+        "OfficeName": "Office of Academic Affairs",
+        "OfficeLink": "https://acd.pu.edu.tw/",
+        "Division": [
+            {
+                "DivisionName": "Division of Registration and Curriculum",
+                "DivisionLink": "https://dorac.pu.edu.tw/"
+            },
+            {
+                "DivisionName": "Division of Admissions",
+                "DivisionLink": "https://adms.pu.edu.tw/"
+            },
+            {
+                "DivisionName": "Teaching Development Center",
+                "DivisionLink": "https://tdcenter.pu.edu.tw/"
+            },
+            {
+                "DivisionName": "Service Learning Development Center",
+                "DivisionLink": "https://service-learning.pu.edu.tw/"
+            }
+        ],
+        "Image": "img/bishop_kupfer_hall.jpg"
+    },
+    {
+        "ID": 3,
+        "OfficeName": "Office of Student Affairs",
+        "OfficeLink": "https://osa.pu.edu.tw/",
+        "Division": [
+            {
+                "DivisionName": "Division of Student Assistance",
+                "DivisionLink": "https://osasa.pu.edu.tw/"
+            },
+            {
+                "DivisionName": "Division of Extra-curricular Activities",
+                "DivisionLink": "https://osaea.pu.edu.tw/"
+            },
+            {
+                "DivisionName": "Counseling and Health Center",
+                "DivisionLink": "https://osachc.pu.edu.tw/"
+            },
+            {
+                "DivisionName": "Division of Student Housing Service",
+                "DivisionLink": "https://osadorm.pu.edu.tw/"
+            },
+            {
+                "DivisionName": "Office of Military Education",
+                "DivisionLink": "https://osamt.pu.edu.tw/"
+            }
+        ],
+        "Image": "img/bishop_kupfer_hall.jpg"
+    },
+    {
+        "ID": 4,
+        "OfficeName": "Office of General Affairs",
+        "OfficeLink": "https://gnl.pu.edu.tw/",
+        "Division": [
+            {
+                "DivisionName": "Division of Business Services",
+                "DivisionLink": "https://dbs.pu.edu.tw/"
+            },
+            {
+                "DivisionName": "Division of Bursar",
+                "DivisionLink": "https://dob.pu.edu.tw/"
+            },
+            {
+                "DivisionName": "Division of Purchasing",
+                "DivisionLink": "https://pur.pu.edu.tw/"
+            },
+            {
+                "DivisionName": "Division of Construction and Maintenance",
+                "DivisionLink": "https://docam.pu.edu.tw/"
+            },
+            {
+                "DivisionName": "Division of Environmental Safety and Sanitation",
+                "DivisionLink": "https://ess.pu.edu.tw/"
+            },
+            {
+                "DivisionName": "Campus Security",
+                "DivisionLink": "https://csp.pu.edu.tw/"
+            }
+        ],
+        "Image": "img/bishop_kupfer_hall.jpg"
+    },
+    {
+        "ID": 5,
+        "OfficeName": "Office of Research and Development",
+        "OfficeLink": "https://rnd.pu.edu.tw/",
+        "Division": [
+            {
+                "DivisionName": "Division of School Affairs and Academic Development",
+                "DivisionLink": "https://research.pu.edu.tw/"
+            },
+            {
+                "DivisionName": "Division of Industrial Collaboration",
+                "DivisionLink": "https://diac.pu.edu.tw/"
+            },
+            {
+                "DivisionName": "Consumer Products and Environment Testing Center",
+                "DivisionLink": "https://cpet.pu.edu.tw/"
+            }
+        ],
+        "Image": "img/providence_hall.jpg"
+    },
+    {
+        "ID": 6,
+        "OfficeName": "Office of Secretariat",
+        "OfficeLink": "https://secretary.pu.edu.tw/",
+        "Division": [
+            {
+                "DivisionName": "Alumni Service Center",
+                "DivisionLink": "https://alumni.pu.edu.tw/"
+            }
+        ],
+        "Image": "img/providence_hall.jpg"
+    },
+    {
+        "ID": 7,
+        "OfficeName": "Luking Library",
+        "OfficeLink": "https://www.lib.pu.edu.tw/",
+        "Division": [
+            {
+                "DivisionName": "Archives",
+                "DivisionLink": "https://archives.pu.edu.tw/"
+            },
+            {
+                "DivisionName": "Art Center",
+                "DivisionLink": "https://art.pu.edu.tw/"
+            }
+        ],
+        "Image": "img/luking_library.jpg"
+    },
+    {
+        "ID": 8,
+        "OfficeName": "Office of Information Technology Services",
+        "OfficeLink": "https://oits.pu.edu.tw/",
+        "Division": [],
+        "Image": "img/anthony_kuo_hall.jpg"
+    },
+    {
+        "ID": 9,
+        "OfficeName": "Office of Personnel",
+        "OfficeLink": "https://psn.pu.edu.tw/",
+        "Division": [],
+        "Image": "img/providence_hall.jpg"
+    },
+    {
+        "ID": 10,
+        "OfficeName": "Office of Accounting",
+        "OfficeLink": "https://act.pu.edu.tw/",
+        "Division": [],
+        "Image": "img/providence_hall.jpg"
+    },
+    {
+        "ID": 11,
+        "OfficeName": "Campus Ministry",
+        "OfficeLink": "https://cmi.pu.edu.tw/",
+        "Division": [],
+        "Image": "img/zhi_shan_hall.jpg"
+    },
+    {
+        "ID": 12,
+        "OfficeName": "Office of Chaplain",
+        "OfficeLink": "https://hope.pu.edu.tw/",
+        "Division": [],
+        "Image": "img/zhi_shan_hall.jpg"
+    },
+    {
+        "ID": 13,
+        "OfficeName": "Office of Career Development and Industry Facilitation",
+        "OfficeLink": "https://cdif.pu.edu.tw/",
+        "Division": [
+            {
+                "DivisionName": "Division of Career Development",
+                "DivisionLink": "https://dcd.pu.edu.tw/"
+            },
+            {
+                "DivisionName": "Industrial College",
+                "DivisionLink": "https://industrial.pu.edu.tw/"
+            },
+            {
+                "DivisionName": "Innovation Incubation Center",
+                "DivisionLink": "https://ssid.pu.edu.tw/"
+            }
+        ],
+        "Image": "img/providence_hall.jpg"
+    },
+    {
+        "ID": 14,
+        "OfficeName": "Office of Extension Education",
+        "OfficeLink": "https://dpcd.pu.edu.tw/",
+        "Division": [],
+        "Image": "img/anthony_kuo_hall.jpg"
+    },
+    {
+        "ID": 15,
+        "OfficeName": "Office of Physical Education",
+        "OfficeLink": "https://phyed.pu.edu.tw/",
+        "Division": [],
+        "Image": "img/john_paul_ii_sporthall.jpg"
+    },
+    {
+        "ID": 16,
+        "OfficeName": "Office of International and Cross-Strait Affairs",
+        "OfficeLink": "https://oia.pu.edu.tw/",
+        "Division": [
+            {
+                "DivisionName": "Division of Academic Exchange Affairs",
+                "DivisionLink": "https://411.pu.edu.tw/"
+            },
+            {
+                "DivisionName": "Division of International Students Affairs",
+                "DivisionLink": "https://oia.pu.edu.tw/app/home.php"
+            },
+            {
+                "DivisionName": "International Foundation Program",
+                "DivisionLink": "https://oia.pu.edu.tw/app/home.php"
+            },
+            {
+                "DivisionName": "Chinese Language Education Center",
+                "DivisionLink": "https://clec.pu.edu.tw/"
+            }
+        ],
+        "Image": "img/providence_hall.jpg"
+    }
+]

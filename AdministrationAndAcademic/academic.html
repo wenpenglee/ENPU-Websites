@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic</title>
+</head>
+
+<body>
+    <style>
+        .academic_title {
+            height: 20vh;
+            width: 100%;
+            display: table;
+            text-align: center;
+            background-color: #68bdbd;
+            color: #fff;
+        }
+
+        .academic_title_text {
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+        .academic_title_text_h1 {
+            font-size: 3rem;
+            font-weight: 100;
+            font-style: italic;
+        }
+
+        .academic_container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .academic_card {
+            border: 1px solid #68bdbd;
+            width: 23%;
+            /* height: 200px; */
+            margin: 20px 0;
+        }
+
+        .academic_card_info {
+            /* width: 100%; */
+            padding: 20px;
+            /* display: flex; */
+        }
+
+        .academic_card_img_container {}
+
+        .academic_card_img {
+            background-size: contain;
+            width: 100%;
+        }
+
+        .academic_card_info_title {
+            font-size: 1.5rem;
+            font-weight: bolder;
+        }
+
+        @media screen and (max-width: 1000px) {
+            .academic_card {
+                width: 31%;
+
+            }
+        }
+
+        @media screen and (max-width: 767px) {
+            .academic_card {
+                width: 49%;
+
+            }
+        }
+
+        @media screen and (max-width: 425px) {
+            .academic_card {
+                width: 100%;
+            }
+        }
+    </style>
+
+    <div>
+        <div class="academic_title">
+            <div class="academic_title_text">
+                <h1 class="academic_title_text_h1">Academic</h1>
+            </div>
+        </div>
+
+        <div class="academic_container">
+        </div>
+    </div>
+
+    <script>
+        let http = new XMLHttpRequest();
+
+        http.open('get', '/academicTestData.json', true);
+        // http.open('get', '/var/file/116/1116/img/952/academicData.json', true);
+
+        http.send();
+
+        http.onload = function () {
+            if (this.readyState === 4 && this.status === 200) {
+                let academic = JSON.parse(this.responseText);
+                var output = "";
+                for (let item of academic) {
+                    output += `
+                    <div class="academic_card">
+                        
+                        <div class="academic_card_img">
+                            <img class="academic_card_img" src="${item.Image}" alt="">
+                        </div>
+                        <div class="academic_card_info">
+                            <a href="${item.OfficeLink}" target="_blank" rel="noopener noreferrer">
+                                <p class="academic_card_info_title">${item.OfficeName}</p>
+                            </a>
+                    `;
+
+                    let i = 0;
+                    while (i < item.Division.length) {
+                        if (item.Division === null) {
+                            output += ``;
+                        } else {
+                            output += `
+                            <a href="${item.Division[i].DivisionLink}" target="_blank" rel="noopener noreferrer">
+                                <p class="academic_card_info_content">${item.Division[i].DivisionName}</p>
+                            </a>
+                            `;
+                        }
+
+
+                        i++;
+                    }
+                    output += `
+                            </div>
+                        </div>
+                        `;
+                }
+                output += `</div>`;
+                document.querySelector(".academic_container").innerHTML = output;
+            }
+        }
+    </script>
+</body>
+
+</html>

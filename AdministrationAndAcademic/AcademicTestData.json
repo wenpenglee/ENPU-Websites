@@ -1,0 +1,192 @@
+[
+    {
+        "ID": 1,
+        "OfficeName": "College of Foreign Languages and Literature",
+        "OfficeLink": "https://.pu.edu.tw/",
+        "Division": [
+            {
+                "DivisionName": "Department of English Language, Literature and Linguistics",
+                "DivisionLink": "https://english.pu.edu.tw/"
+            },
+            {
+                "DivisionName": "Department of Spanish Language and Literature",
+                "DivisionLink": "https://spanish.pu.edu.tw/"
+            },
+            {
+                "DivisionName": "Department of Japanese Language and Literature",
+                "DivisionLink": "https://japanese.pu.edu.tw/"
+            }
+        ],
+        "Image": "img/st_peter_hall.jpg"
+    },
+    {
+        "ID": 2,
+        "OfficeName": "College of Humanities and Social Sciences",
+        "OfficeLink": "https://huso.pu.edu.tw/",
+        "Division": [
+            {
+                "DivisionName": "Department of Chinese Literature",
+                "DivisionLink": "https:/.pu.edu.tw/"
+            },
+            {
+                "DivisionName": "Department of Social Work and Child Welfare",
+                "DivisionLink": "https:/.pu.edu.tw/"
+            },
+            {
+                "DivisionName": "Department of Taiwanese Literature",
+                "DivisionLink": "https:/.pu.edu.tw/"
+            },
+            {
+                "DivisionName": "Department of Law",
+                "DivisionLink": "https:/.pu.edu.tw/"
+            },
+            {
+                "DivisionName": "Department of Ecological Humanities",
+                "DivisionLink": "https:/.pu.edu.tw/"
+            },
+            {
+                "DivisionName": "Department of Mass Communication",
+                "DivisionLink": "https:/.pu.edu.tw/"
+            },
+            {
+                "DivisionName": "Center for Teacher Education",
+                "DivisionLink": "https:/.pu.edu.tw/"
+            },
+            {
+                "DivisionName": "Graduate Institute of Education",
+                "DivisionLink": "https:/.pu.edu.tw/"
+            },
+            {
+                "DivisionName": "Master Program in Crime Prevention",
+                "DivisionLink": "https:/.pu.edu.tw/"
+            },
+            {
+                "DivisionName": "Master Program in Social Enterprise & Cultural and Creative Industries",
+                "DivisionLink": "https:/.pu.edu.tw/"
+            },
+            {
+                "DivisionName": "Ph.D. Program in Health and Social Welfare for Indigenous Peoples",
+                "DivisionLink": "https:/.pu.edu.tw/"
+            },
+            {
+                "DivisionName": "Master Program in Indigenous Culture Heritage",
+                "DivisionLink": "https:/.pu.edu.tw/"
+            },
+            {
+                "DivisionName": "Bachelor Program in Health Care and Social Work Indigenous Students",
+                "DivisionLink": "https://hcsw.pu.edu.tw/?Lang=zh-tw"
+            },
+            {
+                "DivisionName": "Bachelor Program in Laws for Indigenous Students",
+                "DivisionLink": "https://iplaw.pu.edu.tw/?Lang=zh-tw"
+            }
+        ],
+        "Image": "img/anthony_kuo_hall.jpg"
+    },
+    {
+        "ID": 3,
+        "OfficeName": "Office of Student Affairs",
+        "OfficeLink": "https://osa.pu.edu.tw/",
+        "Division": [
+            {
+                "DivisionName": "",
+                "DivisionLink": "https:/.pu.edu.tw/"
+            },
+            {
+                "DivisionName": "",
+                "DivisionLink": "https:/.pu.edu.tw/"
+            },
+            {
+                "DivisionName": "",
+                "DivisionLink": "https:/.pu.edu.tw/"
+            },
+            {
+                "DivisionName": "",
+                "DivisionLink": "https:/.pu.edu.tw/"
+            },
+            {
+                "DivisionName": "",
+                "DivisionLink": "https:/.pu.edu.tw/"
+            }
+        ],
+        "Image": "img/bishop_kupfer_hall.jpg"
+    },
+    {
+        "ID": 4,
+        "OfficeName": "Office of General Affairs",
+        "OfficeLink": "https://gnl.pu.edu.tw/",
+        "Division": [
+            {
+                "DivisionName": "",
+                "DivisionLink": "https:/.pu.edu.tw/"
+            },
+            {
+                "DivisionName": "",
+                "DivisionLink": "https:/.pu.edu.tw/"
+            },
+            {
+                "DivisionName": "",
+                "DivisionLink": "https:/.pu.edu.tw/"
+            },
+            {
+                "DivisionName": "",
+                "DivisionLink": "https:/.pu.edu.tw/"
+            },
+            {
+                "DivisionName": "",
+                "DivisionLink": "https:/.pu.edu.tw/"
+            },
+            {
+                "DivisionName": "",
+                "DivisionLink": "https:/.pu.edu.tw/"
+            }
+        ],
+        "Image": "img/bishop_kupfer_hall.jpg"
+    },
+    {
+        "ID": 5,
+        "OfficeName": "Office of Research and Development",
+        "OfficeLink": "https://rnd.pu.edu.tw/",
+        "Division": [
+            {
+                "DivisionName": "",
+                "DivisionLink": "https:/.pu.edu.tw/"
+            },
+            {
+                "DivisionName": "",
+                "DivisionLink": "https:/.pu.edu.tw/"
+            },
+            {
+                "DivisionName": "",
+                "DivisionLink": "https:/.pu.edu.tw/"
+            }
+        ],
+        "Image": "img/providence_hall.jpg"
+    },
+    {
+        "ID": 6,
+        "OfficeName": "Office of Secretariat",
+        "OfficeLink": "https://secretary.pu.edu.tw/",
+        "Division": [
+            {
+                "DivisionName": "",
+                "DivisionLink": "https:/.pu.edu.tw/"
+            }
+        ],
+        "Image": "img/providence_hall.jpg"
+    },
+    {
+        "ID": 7,
+        "OfficeName": "Luking Library",
+        "OfficeLink": "https://www.lib.pu.edu.tw/",
+        "Division": [],
+        "Image": "img/luking_library.jpg"
+    },
+    {
+        "ID": 8,
+        "OfficeName": "Office of Information Technology Services",
+        "OfficeLink": "https://oits.pu.edu.tw/",
+        "Division": [],
+        "Image": "img/anthony_kuo_hall.jpg"
+    }
+]
